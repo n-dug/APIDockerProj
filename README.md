@@ -1,7 +1,14 @@
 A pet-project for training QA skills, e.g. using Docker for autotests
+
 The goal is to set tests for todo service
 
-The attached image 'todo-app.tar' contains an application implementing the most straightforward TODO manager with CRUD operations. The image can be loaded via docker load and run using docker run -p 8080:4242.
+The attached image 'todo-app.tar' contains an application implementing the most straightforward TODO manager with CRUD operations. The image can be loaded via docker load and run using CLI:
+
+1️⃣ docker load < todo-app.tar
+
+2️⃣ docker run -p 8080:4242 todo-app
+
+The app will be available at: http://localhost:8080.
 
 The task includes two parts:
 
